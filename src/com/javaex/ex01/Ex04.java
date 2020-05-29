@@ -16,9 +16,8 @@ public class Ex04 {
 		
 		while(true) {
 			String str = br.readLine();
-			if(str == null) {
-				break;
-			}
+			if(str == null) break;
+			
 			System.out.println(str);
 		}
 		
