@@ -1,6 +1,6 @@
 package com.javaex.ex02;
 
-//1.텍스트 파일을 입력받아 원하는 형식으로 콘솔창에 출력하자.
+//1.텍스트 파일을 입력받아 원하는 양식으로 콘솔창에 출력하자.
 //2.내 이름,폰번호,회사번호를 입력해보자.
 
 import java.io.BufferedReader;
@@ -38,7 +38,7 @@ public class Ex01 {
 		
 		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\javaStudy\\file\\PhoneDB.txt", true));
 		
-		bw.write("양지선,010-2382-3636,02-8028-1176");
+		bw.write("양지선,010-0000-0000,02-8028-1176");
 		
 		bw.close();
 		fr.close();
